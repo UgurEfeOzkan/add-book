@@ -74,5 +74,5 @@ function showMessage(message, color = "green") {
   box.classList.add("show");
   setTimeout(() => {
     box.classList.remove("show");
-  }, 2000); // 2 saniye sonra kaybolur
+  }, 2000);
 }
