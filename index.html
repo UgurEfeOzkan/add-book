@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOKLIST</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1 class="center">ADD BOOK</h1>
+    <div class="center">
+      <div class="form-group">
+        <label for="book-title">Title</label><br />
+        <input type="text" id="book-title" /><br />
+      </div>
+      <div class="form-group">
+        <label for="book-author"> Author</label><br />
+        <input type="text" id="book-author" /><br />
+      </div>
+      <div class="form-group">
+        <label for="book-ISBN#"> ISBN#</label><br />
+        <input type="text" id="book-ISBN#" /><br />
+      </div>
+      <div id="message-box"></div>
+      <button id="submit">submit</button>
+      <!-- <button id="delete">delete</button> -->
+      <table id="book-table" border="1" class="center">
+        <thead>
+          <tr>
+            <td>TITLE</td>
+            <td>AUTHOR</td>
+            <td>ISBN</td>
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="./index.js"></script>
+    <!-- <script src="./JavaScript.js"></script> -->
+  </body>
+</html>
